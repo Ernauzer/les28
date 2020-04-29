@@ -1,0 +1,18 @@
+$fc-main: #493b3b;
+$fz-sm: 50px;
+$ff-project: Arial, sans-serif;
+
+.conteiner {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(212, 99, 18);
+  
+  h1 {
+    color: $fc-main;
+    font-size: $fz-sm;
+    font-family: $ff-project;
+    span {
+      font-style: italic;
+    }
+  }
+}
